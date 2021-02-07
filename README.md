@@ -6,6 +6,7 @@
 ###### ddd-generator是一个基于六边形架构的框架，可以支撑充血的领域模型范式。
 
 ## Overview
+- 基于toml文件格式的领域描述语言
 - 集成Iris v12 & Beego v2 & Gin
 - 集成普罗米修斯
 - 无侵入式Trace
@@ -15,9 +16,10 @@
 - CRUD & PO Generate
 - DDD & 六边形架构
 - 领域事件 & MQ组件
-- CQRS & 聚合根
+- CQRS & 聚合根 & 防腐层
 - 一级缓存 & 二级缓存 & 防击穿
 - 基于AST（抽象语法树分析）的代码修改
+- GraphQL API
 
 ## 安装
 ```sh
